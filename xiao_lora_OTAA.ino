@@ -29,7 +29,7 @@ void setup()
     
   // Vi setter nøklene vi trenger for å koble oss til TTN via OTAA. 
   // Vi trenger "network session key", NwkSKey, "application session key", AppSKey, og "application key", AppKey - i den rekkefølgen. Dette finnes i oversikten/dashbordet i TTN.
-  lora.setKey("33EDC673EA1C9D9E5F27267434846D5F", "7183BA82D22EB316C269BF3AD3240D0A", "E4415BB03E67CCF76604698F7EB346B8");
+  lora.setKey("00000000000000000000000000000000", "00000000000000000000000000000000", "00000000000000000000000000000000");
   
   // Setter modus til enheten (her er det en skrivefeil i biblioteket) til OTAA, "Over-The-Air Activation", og datahastigheten. 
   lora.setDeciveMode(LWOTAA);
