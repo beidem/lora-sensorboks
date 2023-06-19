@@ -81,7 +81,7 @@ void printVariables()
   lpp.reset();
 
   // Leser av luftfuktighetsmåling fra DHT11-sensoren.
-  float humidity = dht.readHumidity();;
+  float humidity = dht.readHumidity();
   // Legger til luftfuktighetsmålingen til LPP-bufferen.
   // Her angir vi typen data slik at det blir dekodet direkte som luftfuktighet i Cayenne-dashboardet.
   // Dataene blir sendt i kanal 1 til Cayenne.
